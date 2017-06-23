@@ -14,3 +14,11 @@
 .icons {
   width: 40%;
 }
+
+nav ul a {
+  margin: 45px;
+}
+
+nav .brand-logo.right {
+    right: 15rem;
+}
