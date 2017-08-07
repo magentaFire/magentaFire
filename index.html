@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/title.css">
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/projects.css">
-  <link rel="stylesheet" href="css/skills.css">
+  <!-- <link rel="stylesheet" href="css/skills.css"> -->
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/svgs.css">
   <title>magentaFire Portfolio</title>
@@ -19,10 +19,10 @@
 
 <body>
 
-  <header class="navbar-fixed">
+  <header class="navbar-fixed magenta-bg nav-wrapper">
     <nav>
-      <div class="nav-wrapper magenta-bg">
-        <a href="#home" class="brand-logo right oswald-font">MAGENTA</a>
+      <div class="magenta-bg">
+        <a href="#home" class="brand-logo right oswald-font">MAGENTA!</a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li><a class="oswald-font" href="#servicios">Servicios</a></li>
           <li><a class="oswald-font" href="#proyectos">Proyectos</a></li>
@@ -86,9 +86,6 @@
               orientadas: desde una pequeña página muy concisa hasta sitios elaborados más profundamente con tecnología
               como HTML5, CSS3, javascript, jQuery, frameworks y consumo de API's.
             </p>
-            <div class="center service-buttons-space">
-              <a class="waves-effect waves-light btn white-bg magenta-font">Portfolio</a>
-            </div>
           </div>
         </div>
         <div class="col s12 m4">
@@ -103,7 +100,7 @@
               render y diferentes pipelines.
             </p>
             <div class="center service-buttons-space">
-              <a class="waves-effect waves-light btn white-bg magenta-font">Demo Reel</a>
+              <a class="waves-effect waves-light btn white-bg magenta-font" id="btnDemoReel">Demo Reel</a>
             </div>
           </div>
         </div>
@@ -136,10 +133,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-applove.png">
-             <span class="card-title">applove</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/applove_020517">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -148,10 +144,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-bootstrap.png">
-             <span class="card-title">Copia de Bootstrap</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/ejercicio_bootstrap">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -160,10 +155,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-directorio.png">
-             <span class="card-title magenta-font">Directorio jQuery</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/directorio-jQuery">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -172,10 +166,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-freelancer.png">
-             <span class="card-title">Freelancer</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/freelancer_040217">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -184,10 +177,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-labcar.png">
-             <span class="card-title">Labcar</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/labcar">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -196,10 +188,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-lyft.png">
-             <span class="card-title">Copia Lyft</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/ejercicio_lyft">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -208,10 +199,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-pandas.png">
-             <span class="card-title">Pandas</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/pandas_again">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -220,10 +210,9 @@
          <div class="card">
            <div class="card-image">
              <img src="img/proyecto-twitter.png">
-             <span class="card-title">Twitter básico</span>
            </div>
            <div class="card-action">
-             <a href="#">Ir al sitio</a>
+             <a href="https://github.com/magentaFire/twitter_like">Ir al repositorio en GitHub</a>
            </div>
          </div>
        </div>
@@ -580,11 +569,26 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="https://vimeo.com/173952103">vimeo</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dafne-magenta-luna-casanueva-a4a02a144">linkedIn</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/magenta.luna.12?hc_ref=SEARCH">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/magentaFire">github.com/magentaFire</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">dafne.magenta@gmail.com</a></li>
+            <li>
+              <i class="white-text fa fa-vimeo" aria-hidden="true"></i>
+              <a class="grey-text text-lighten-3" href="https://vimeo.com/173952103"> Vimeo</a>
+            </li>
+            <li>
+              <i class="white-text fa fa-linkedin-square" aria-hidden="true"></i>
+              <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dafne-magenta-luna-casanueva-a4a02a144"> LinkedIn</a>
+            </li>
+            <li>
+              <i class="white-text fa fa-facebook" aria-hidden="true"></i>
+              <a class="grey-text text-lighten-3" href="https://www.facebook.com/magenta.luna.12?hc_ref=SEARCH"> Facebook</a>
+            </li>
+            <li>
+              <i class="white-text fa fa-github-alt" aria-hidden="true"></i>
+              <a class="grey-text text-lighten-3" href="https://github.com/magentaFire"> github.com/magentaFire</a>
+            </li>
+            <li>
+              <i class="white-text fa fa-envelope" aria-hidden="true"></i>
+              <a class="grey-text text-lighten-3"> dafne.magenta@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -599,6 +603,7 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
   <script src="js/app.js" type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/8880554dc4.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 </body>

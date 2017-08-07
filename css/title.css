@@ -36,3 +36,7 @@ p {
 .fat {
   font-weight: 400;
 }
+
+.nav-wrapper {
+  display: none;
+}

@@ -51,6 +51,10 @@ nav .brand-logo, nav ul a {
   color: #EEF0F2;
 }
 
+nav {
+  background-color: #D32679;
+}
+
 .background {
   width: 100vw;
   height: 800px;
